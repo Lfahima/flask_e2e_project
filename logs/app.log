@@ -1,0 +1,446 @@
+WARNING - werkzeug -  * Debugger is active!
+INFO - werkzeug -  * Debugger PIN: 398-074-476
+DEBUG - root - success! dashboard page has been accessed
+ERROR - root - an error occured! User is not logged in
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:47] "GET /dashboard/ HTTP/1.1" 200 -
+DEBUG - root - success! index page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:50] "GET / HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! google page has been accessed
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - urllib3.connectionpool - https://accounts.google.com:443 "GET /.well-known/openid-configuration HTTP/1.1" 200 464
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:50] "[32mGET /google/ HTTP/1.1[0m" 302 -
+DEBUG - root - success! google_auth page has been accessed
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG - urllib3.connectionpool - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - urllib3.connectionpool - https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 740
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:52] "[32mGET /google/auth/?state=L6m014t8SeZdIsnU9ZKUV3mSTbYEUd&code=4/0AfJohXlcTaEff95BI--UootmRXwfxMmzcp0f_dlIDHYgqEK4K-lfbi5wPkqNAGySmaWTWA&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&hd=stonybrook.edu&prompt=none HTTP/1.1[0m" 302 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:52] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:02:52] "[33mGET /docs/images/people/profile-picture-3.jpg HTTP/1.1[0m" 404 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:03:54] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:03:54] "[33mGET /docs/images/people/profile-picture-3.jpg HTTP/1.1[0m" 404 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:03:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:15] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:15] "[33mGET /docs/images/people/profile-picture-3.jpg HTTP/1.1[0m" 404 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:34] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:34] "[33mGET /docs/images/people/profile-picture-3.jpg HTTP/1.1[0m" 404 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:53] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:04:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:05:12] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:05:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:05:43] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:05:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:02] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:11] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:20] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:55] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:06:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:04] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:31] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:32] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:33] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:40] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:50] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:07:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:36] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:37] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:37] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:38] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:08:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:04] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:10] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:11] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:11] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:20] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:20] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:38] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:11:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:15] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! logout page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+DEBUG - root - success! index page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:16] "GET / HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! google page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:17] "[32mGET /google/ HTTP/1.1[0m" 302 -
+DEBUG - root - success! google_auth page has been accessed
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG - urllib3.connectionpool - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:18] "[32mGET /google/auth/?state=FJifvfd5HMwI5HSX0vd30SOT15IGrg&code=4/0AfJohXkAvoB9SAiQhcyeVmFMg_7-vQCsJydUXrnNYA3X-kvYsfk3WhK6baM-BaOu_JpDhQ&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=stonybrook.edu&prompt=none HTTP/1.1[0m" 302 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:18] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:37] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:12:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:00] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:01] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:25] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:47] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:48] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:13:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:02] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:12] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:12] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:23] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:24] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:25] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:25] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:32] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:48] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:14:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:15:58] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:15:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:06] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:22] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:30] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:50] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:58] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:16:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:18] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:19] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:27] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:38] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:46] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:52] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:17:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:05] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:32] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:33] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:39] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:18:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:02] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:15] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:21] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:22] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:27] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:34] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:35] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:42] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:47] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:52] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:58] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:19:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:20:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:05] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:27] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:44] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:45] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:21:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:22:08] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:22:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:22:31] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:22:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:22:31] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:22:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:23:22] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:23:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:23:33] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:23:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:24:50] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:24:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:24:58] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:24:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:42] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:51] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:52] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:52] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:26:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:01] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:06] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:14] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:26] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:27] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:40] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:48] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:57] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:27:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:04] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:09] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:10] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:15] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:16] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:45] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:57] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:28:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:21] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:31] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:53] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:59] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:29:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:09] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:15] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:22] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:27] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:39] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:45] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:58] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:30:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:06] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:17] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:24] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:30] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:30] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:34] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:40] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:48] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:48] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:31:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:00] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:06] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:12] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:23] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:24] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:24] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:32] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:33] "[33mGET /dashboard/data HTTP/1.1[0m" 404 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:38] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! data page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:39] "GET /data HTTP/1.1" 200 -
+DEBUG - root - success! data page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:32:51] "GET /data HTTP/1.1" 200 -
+DEBUG - root - success! google page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:00] "[32mGET /google/ HTTP/1.1[0m" 302 -
+DEBUG - root - success! google_auth page has been accessed
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG - urllib3.connectionpool - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:01] "[32mGET /google/auth/?state=orWjD24JJovMlw8dqCDs0cFFxJmp6J&code=4/0AfJohXnxLaxOhlgMdgL25RuPMjtMRyxHaVyMBJcgMt0TVJK8NrfGYGa-zBk9KMgIZsIVxg&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=0&hd=stonybrook.edu&prompt=none HTTP/1.1[0m" 302 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:01] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! data page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:03] "GET /data HTTP/1.1" 200 -
+DEBUG - root - success! data page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:19] "GET /data HTTP/1.1" 200 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:26] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! data page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:27] "GET /data HTTP/1.1" 200 -
+DEBUG - root - success! data page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [09/Dec/2023 21:33:33] "GET /data HTTP/1.1" 200 -

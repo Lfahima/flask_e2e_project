@@ -1,0 +1,9 @@
+flask 
+authlib 
+requests
+sqlalchemy
+pandas
+python-dotenv
+pymysql
+mysql-connector-python
+logging 
