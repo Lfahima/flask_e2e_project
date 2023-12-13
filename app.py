@@ -43,9 +43,15 @@ DB_CHARSET = os.getenv("DB_CHARSET", "utf8mb4")
 GOOGLE_CLIENT_ID = os.getenv('GOOGLE_CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.getenv('GOOGLE_CLIENT_SECRET')
 
-con = sqlalchemy.create_engine(
-   "mysql+mysqlconnector://Lfahima:Bubble610!@fahima-mysql-final.mysql.database.azure.com/Heart_Failure_Prediction"
+url_object = sqlalchemy.URL.create(
+    "mysql+mysqlconnector",
+    username=DB_USERNAME,
+    password=DB_PASSWORD,
+    host=DB_HOST,
+    database=DB_DATABASE,
 )
+
+con = sqlalchemy.create_engine(url_object)
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -102,7 +108,7 @@ def index():
         return render_template('index.html')
     except Exception as e:
         logging.error(f"an error occured! {e}")
-        return "try again"
+        return render_template('error.html')
 
 @app.route('/google/')
 def google():
@@ -130,7 +136,7 @@ def google():
         return oauth.google.authorize_redirect(redirect_uri, nonce=session['nonce'])
     except Exception as e:
         logging.error(f"an error occured! {e}")
-        return "try again"
+        return render_template('error.html')
    
 
 @app.route('/google/auth/')
@@ -144,7 +150,7 @@ def google_auth():
         return redirect('/dashboard')
     except Exception as e:
         logging.error(f"an error occured! {e}")
-        return "try again"
+        return render_template('error.html')
 
 
 @app.route('/dashboard/')
@@ -157,7 +163,7 @@ def dashboard():
         return render_template('dashboard.html',  user=user)
     except Exception as e:
         logging.error(f"an error occured! {e}")
-        return "Please log in!"
+        return render_template('error.html')
     
 
 @app.route('/logout')
@@ -168,7 +174,7 @@ def logout():
         return redirect('/')
     except Exception as e:
         logging.error(f"an error occured! {e}")
-        return "try again"
+        return render_template('error.html')
    
 
 
@@ -195,7 +201,7 @@ def data(data=df):
         return render_template('data.html', data=data)
     except Exception as e:
         logging.error(f"an error occured! {e}")
-        return "Please log in!" 
+        return render_template('error.html')
 
 
 if __name__ == '__main__':

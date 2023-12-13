@@ -1,5 +1,5 @@
 import sqlite3
-
+import logging
 # Initialize the database
 DATABASE = 'users.db'
 
@@ -27,7 +27,8 @@ def update_or_create_user(user_info):
             ON CONFLICT(email) DO UPDATE SET name = excluded.name, profile = excluded.profile
         ''', (user_info['email'], user_info['name'], user_info['picture']))
         db.commit()
-        print("User added to database: ", user_info['email'])
+        str = 'User added to database: ' + user_info['email']
+        logging.debug(str)
     except Exception as e:
-        print(e)
+        logging.error(e)
         db.rollback()
