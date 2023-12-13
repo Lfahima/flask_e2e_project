@@ -1,25 +1,2 @@
 WARNING - werkzeug -  * Debugger is active!
 INFO - werkzeug -  * Debugger PIN: 398-074-476
-DEBUG - root - success! index page has been accessed
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:22] "GET / HTTP/1.1" 200 -
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-DEBUG - root - success! google page has been accessed
-DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): accounts.google.com:443
-DEBUG - urllib3.connectionpool - https://accounts.google.com:443 "GET /.well-known/openid-configuration HTTP/1.1" 200 464
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:23] "[32mGET /google/ HTTP/1.1[0m" 302 -
-DEBUG - root - success! google_auth page has been accessed
-DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): oauth2.googleapis.com:443
-DEBUG - urllib3.connectionpool - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
-DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.googleapis.com:443
-DEBUG - urllib3.connectionpool - https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 740
-DEBUG - root - User added to database: fahima.lakhi@stonybrook.edu
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:26] "[32mGET /google/auth/?state=cfLAOiE6vZGMKWWarN3BAW1JWtQaaZ&code=4/0AfJohXlMkS99fcMxlYfcid7TfQ8hFkWp3J4F-Uw2oRnRjEZcvDfUj5Sym5mfIi8HUu4MsA&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=1&hd=stonybrook.edu&prompt=consent HTTP/1.1[0m" 302 -
-DEBUG - root - success! dashboard page has been accessed
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:26] "GET /dashboard/ HTTP/1.1" 200 -
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
-DEBUG - root - success! data page has been accessed
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:28] "GET /data HTTP/1.1" 200 -
-DEBUG - root - success! data page has been accessed
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:32] "GET /data?age=2 HTTP/1.1" 200 -
-DEBUG - root - success! data page has been accessed
-INFO - werkzeug - 127.0.0.1 - - [13/Dec/2023 12:44:35] "GET /data?age=50 HTTP/1.1" 200 -

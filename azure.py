@@ -7,8 +7,10 @@ pip install sqlalchemy alembic mysql-connector-python pymysql
 ## Part 1 - Define SQLAlchemy models for patients and their medical records:
 ### this file below could always be called db_schema.py or something similar
 
-from sqlalchemy import create_engine, inspect, Column, Integer, Float, String, Boolean 
+from sqlalchemy import create_engine, inspect, Column, Integer, Float, String, Boolean, URL 
 from sqlalchemy.ext.declarative import declarative_base
+from dotenv import load_dotenv
+import os
 
 Base = declarative_base()
 
@@ -30,7 +32,24 @@ class BreastCancer(Base):
 
 ### Part 2 - initial sqlalchemy-engine to connect to db:
 
-engine = create_engine("mysql+mysqlconnector://yourusername:yourpassword!@fahima-mysql-final.mysql.database.azure.com/Heart_Failure_Prediction")
+load_dotenv()   
+DB_HOST = os.getenv("DB_HOST")
+DB_DATABASE = os.getenv("DB_DATABASE")
+DB_USERNAME = os.getenv("DB_USERNAME")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_PORT = int(os.getenv("DB_PORT", 3306))
+DB_CHARSET = os.getenv("DB_CHARSET", "utf8mb4")
+
+
+url_object = URL.create(
+    "mysql+mysqlconnector",
+    username=DB_USERNAME,
+    password=DB_PASSWORD,
+    host=DB_HOST,
+    database=DB_DATABASE,
+)
+
+engine = create_engine(url_object)
 
 # Create a database engine
 
