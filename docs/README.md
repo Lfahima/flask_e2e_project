@@ -9,12 +9,19 @@ The user cannot see the dashbaord or the dataset if they are not logged in.
 
 ## The technologies you used
 Cleaning of dataset: Pandas  
+
 Populating dataset in MySQL: SQLAlchemy, MySQL,nAzure, Alembic
+
 Front-End technologies: HTML, Jinja templating, CSS, Tailwind 
+
 Autentication: Google OAuth, Flask 
+
 Back-End technologies: MySQL, Flask (API)
+
 Deployment: Azure 
+
 Logging: Logger
+
 Containerization: Docker
 
 ## The steps to run your web service if someone wanted to either run locally or deploy to the cloud
