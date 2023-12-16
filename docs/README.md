@@ -2,9 +2,10 @@
 This is the final assignment for HHA 504
 
 ## The web service you created (what is it and what does it do)
-I used a dataset from Kaggle titled Heart Failure Prediction Dataset (explain here) I chose to use this dataset because it included strings, booleans, and intigers. I first cleaned the dataset, where I cleaned the column names by changing upper case to lower case and replacing speaces with underscores. Then I checked to see if any values were missing in the dataset. I also checked/removed any duplicate rows and columns. Lastly, for the column "exercise_angina" I replaced the "N" and "Y" with "0" and "1". After cleaning the dataset the data was pushed into   MySQL database. 
+I used a dataset from Kaggle titled Heart Failure Prediction Dataset which includes 12 columns and 918 rows. The dataset displays the prediction of heart disease when attributed to other demographic and health related aspects such as, Age, Sex, chest pain type, Resting BP, Cholesterol, Fasting BS, Resting ECG, Max HR, Exercise Angina, Old Peak, ST Slope. It was interesting to see how some columns can link to posibility of heart disease. I chose to use this dataset because it included strings, booleans, and intigers. I first cleaned the dataset, where I cleaned the column names by changing upper case to lower case and replacing speaces with underscores. Then I checked to see if any values were missing in the dataset. I also checked/removed any duplicate rows and columns. Lastly, for the column "exercise_angina" I replaced the "N" and "Y" with "0" and "1". After cleaning the dataset the data was pushed into   MySQL database. 
 My web service prompts the user to login with their google account, once the user logs in with thier google account they can then view the dashboard with their google account and a button that says "view data". When the viewer clicks on the "view data" button they can see the data in the data base in a table format. 
 The user cannot see the dashbaord or the dataset if they are not logged in. 
+I went with option one, which is basically creating a web service app that will display a dataset. 
 
 
 ## The technologies you used
@@ -93,3 +94,7 @@ https://github.com/Lfahima/flask_e2e_project/assets/140275869/5afd5275-b17a-48c8
 
 ## Image of flask API capibilties:
 <img width="1508" alt="Screenshot 2023-12-15 at 7 23 32 PM" src="https://github.com/Lfahima/flask_e2e_project/assets/140275869/407e781b-0971-4807-a290-9f9aa9b320ee">
+
+
+## Refrences:
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/
