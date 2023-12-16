@@ -1,2 +1,24 @@
 WARNING - werkzeug -  * Debugger is active!
 INFO - werkzeug -  * Debugger PIN: 398-074-476
+DEBUG - root - success! index page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:51] "GET / HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:51] "GET /static/styles.css HTTP/1.1" 200 -
+DEBUG - root - success! google page has been accessed
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): accounts.google.com:443
+DEBUG - urllib3.connectionpool - https://accounts.google.com:443 "GET /.well-known/openid-configuration HTTP/1.1" 200 464
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:55] "[32mGET /google/ HTTP/1.1[0m" 302 -
+DEBUG - root - success! google_auth page has been accessed
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG - urllib3.connectionpool - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.googleapis.com:443
+DEBUG - urllib3.connectionpool - https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 739
+DEBUG - root - User added to database: fahima.lakhi@stonybrook.edu
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:58] "[32mGET /google/auth/?state=BKPYV1LbpPUPp02yfD01g1UGZ8bFqZ&code=4/0AfJohXkQwqZJoHlyZPk4V3cwOiNxh-IzRCLwxn-z9HVBX5Rm2Ve9GlCFuzt7cGiupf2jOg&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=1&hd=stonybrook.edu&prompt=consent HTTP/1.1[0m" 302 -
+DEBUG - root - success! dashboard page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:58] "GET /dashboard/ HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+DEBUG - root - success! logout page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+DEBUG - root - success! index page has been accessed
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:59] "GET / HTTP/1.1" 200 -
+INFO - werkzeug - 127.0.0.1 - - [15/Dec/2023 17:33:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
