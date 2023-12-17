@@ -7,7 +7,7 @@ I also chose to use this dataset because it included strings, booleans, and inti
 
 References: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/
 
-To prepare the dataset, I began by cleaning the dataset. I first checked to see if any values were missing in the dataset. I then followed by checking/removing any duplicate rows and columns. I then cleaned all the column names by changing upper case to lower case and replacing spaces with underscores. I proceeded by checking to ensure all the column names were cleaned and renamed to what I wanted it to viewed as. Lastly, for the column "exercise_angina" I replaced the "N" and "Y" with "0" and "1". 
+To prepare the dataset, I began by cleaning the dataset. I first checked to see if any values were missing in the dataset. I then followed by checking/removing any duplicate rows and columns. I then cleaned all the column names by changing upper case to lower case and replacing spaces with underscores. I proceeded by checking to ensure all the column names were cleaned and renamed to what I wanted it to be viewed as. Lastly, for the column "exercise_angina" I replaced the "N" and "Y" with "0" and "1". 
 After cleaning the dataset the data was pushed into MySQL database. 
 
 My web service prompts the user to login with their google account. Once the user logs in with their google account, they can then view the dashboard with their google account and a button that reads "View Data". When the viewer clicks on the "View Data" button they can preview the data in the data base in a table format. 
