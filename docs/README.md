@@ -1,17 +1,23 @@
 # flask_e2e_project
-This is the final assignment for HHA 504
+This is the final assignment/project for HHA 504
 
 ## The web service you created (what is it and what does it do)
-I used a dataset from Kaggle titled Heart Failure Prediction Dataset which includes 12 columns and 918 rows. The dataset displays the prediction of heart disease when attributed to other demographic and health related aspects such as, Age, Sex, chest pain type, Resting BP, Cholesterol, Fasting BS, Resting ECG, Max HR, Exercise Angina, Old Peak, ST Slope. It was interesting to see how some columns can link to posibility of heart disease. I chose to use this dataset because it included strings, booleans, and intigers. I first cleaned the dataset, where I cleaned the column names by changing upper case to lower case and replacing speaces with underscores. Then I checked to see if any values were missing in the dataset. I also checked/removed any duplicate rows and columns. Lastly, for the column "exercise_angina" I replaced the "N" and "Y" with "0" and "1". After cleaning the dataset the data was pushed into   MySQL database. 
-My web service prompts the user to login with their google account, once the user logs in with thier google account they can then view the dashboard with their google account and a button that says "view data". When the viewer clicks on the "view data" button they can see the data in the data base in a table format. 
+I used a dataset from Kaggle titled "Heart Failure Prediction Dataset" to be displayed on my web service. The dataset includes 12 columns and 918 rows of data. The columns in the dataset are based on and represents health/clinical aspects that can possibly predict heart failure or the possibility of being at risk for the disease. The discription of the dataset accurately explains how heart disease is a serious health issue and so many deaths are due to heart failure all around the world. Also, health aspects such as Age, Sex, Chest pain type, Resting BP, Cholesterol, Fasting BS, Resting ECG, Max HR, Exercise Angina, Old Peak, ST Slope can really help determine if an individual possibly has or is at risk of such a detrimental health illness. I found this dataset to be very interesting to analyze and to view if any possible trends exist in the dataset, and which patient had a heart disease and which did not given all the medical data. 
+I also chose to use this dataset because it included strings, booleans, and intigers. 
+References: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/
+
+To prepare the dataset, I began by cleaning the dataset. I first checked to see if any values were missing in the dataset. I then followed by checking/removing any duplicate rows and columns. I then cleaned all the column names by changing upper case to lower case and replacing spaces with underscores. I proceeded by checking to ensure all the column names were cleaned and renamed to what I wanted it to viewed as. Lastly, for the column "exercise_angina" I replaced the "N" and "Y" with "0" and "1". 
+After cleaning the dataset the data was pushed into MySQL database. 
+
+My web service prompts the user to login with their google account. Once the user logs in with their google account, they can then view the dashboard with their google account and a button that reads "View Data". When the viewer clicks on the "View Data" button they can preview the data in the data base in a table format. 
 The user cannot see the dashbaord or the dataset if they are not logged in. 
-I went with option one, which is basically creating a web service app that will display a dataset. 
+
 
 
 ## The technologies you used
 Cleaning of dataset: Pandas  
 
-Populating dataset in MySQL: SQLAlchemy, MySQL,nAzure, Alembic
+Populating dataset in MySQL: SQLAlchemy, MySQL, Azure, Alembic
 
 Front-End technologies: HTML, Jinja templating, CSS, Tailwind 
 
@@ -25,27 +31,31 @@ Logging: Logger
 
 Containerization: Docker
 
+
+
 ## The steps to run your web service if someone wanted to either run locally or deploy to the cloud
 ## How could they run it without Docker locally?
 Update the .env file with your google credentials as well as database credentials. Once that is completed run 
-`pip3 install -r requirements.txt`. Follow the instructions in `azure.py` to run the migration. Comment out line 134 in `app.py`. Call the function `clean_data` in `app.py`. Now run `python3 app.py`. Be sure to comment out the call to `clean_data` once completed.
+`pip3 install -r requirements.txt`. Follow the instructions in `azure.py` to run the migration. Comment out line 134 in `app.py`. Call the function `clean_data` in `app.py`. Then run `python3 app.py`. Be sure to comment out the call to `clean_data` once completed.
 ## How could they run it with Docker locally?
 Update the .env file with your google credentials as well as database credentials. Once that is completed run 
-`pip3 install -r requirements.txt`. Follow the instructions in `azure.py` to run the migration. Comment out line 134 in `app.py`. Call the function `clean_data` in `app.py`. Now run the following two commands: `docker build -t docker_example_1 .` and `docker run -d -p 5001:5000 docker_example_1`. Be sure to comment out the call to `clean_data` once completed.
+`pip3 install -r requirements.txt`. Follow the instructions in `azure.py` to run the migration. Comment out line 134 in `app.py`. Call the function `clean_data` in `app.py`. Then run the following two commands: `docker build -t docker_example_1` and `docker run -d -p 5001:5000 docker_example_1`. Be sure to comment out the call to `clean_data` once completed.
 ## How could they deploy it to the cloud?
 Follow the instructions in `azure.py` to run the migration for the database.
-- First connect VSC (or cloud shell) to your Azure acount, so navigate to this this url: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
-- The url will give you a command that you can paste into your terminal: curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash (this command is used to install azure).
-- You then type az to make sure Azure and VSC were connected.
-- Then copy and paste this code to login: az login --use-device-code and hit enter.
-- You will then be provided with another url and a code in the terminal. Follow by copying the code and clicking into the url. Paste the code in the space provided.
-- To get the azure student subscription ID use this code: az account list --output table and hit enter.
-- Copy the last subscriptionID which was linked to Azure for students, and paste it into this code: az account set --subscription yoursubscriptionId (paste the ID towards the end where it says yoursubscriptionId). 
-- Paste this code: az webapp up --resource-group --name --runtime PYTHON:3.9 --sku B1. For groupname change it to the resource group name you have set in Azure or GCP and for app-name make something up.
-- FINALLY, paste this code to re-deploy: az webapp up.
+- First connect VSC or Cloud Shell to your Azure account, so navigate to this url: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+- The url will give you a command under option 1 that you paste into your terminal: `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bas` (this command is used to install azure).
+- Then type `az` to make sure Azure is installed.
+- Follow by pasting this code to login: `az login --use-device-code` and hit enter.
+- You will then be provided with another url and a code in the terminal. Proceed by copying the code first and clicking into the url. Paste the code in the space provided.
+- To get the azure student subscription ID use this code: `az account list --output table` and hit enter.
+- Copy the last subscriptionId which is linked to Azure for Students, and paste it into the end of this code: `az account set --subscription yoursubscriptionId` (paste the ID towards the end where it says yoursubscriptionId). 
+- Paste this code: `az webapp up --resource-group <groupname> --name <app-name> --runtime <PYTHON:3.9> --sku <B1>` For <groupname> change it to the resource group name you have created in Azure or GCP and for <app-name> make something up.
+- FINALLY, paste this code to re-deploy: `az webapp up`
 Update your application configuration to include all the env variables listed in .env template below. 
 Change line 134 to include your url instead in `app.py`. Call the function `clean_data` in `app.py`.
-Redeploy by running `az webapp up` and then comment out the call all to the function `clean_data` in `app.py` once the data is added. Redeploy again using `az webapp up`.
+Re-deploy by running `az webapp up` and then comment out the call all to the function `clean_data` in `app.py` once the data is added. Re-deploy again using `az webapp up`.
+
+
 
 ## A template of the .env file structure you used, which should include all of the environment variables you used like below. Please be sure to NOT include your actual API keys in the github repo.:
 ```
@@ -58,7 +68,9 @@ DB_PASSWORD=
 ```
 
 
+
 ## App URL: https://fahima-504-final.azurewebsites.net/
+
 
 
 ## Video of App:
@@ -69,6 +81,7 @@ https://github.com/Lfahima/flask_e2e_project/assets/140275869/cf3fa495-8cdd-4eb7
 
 ## Video showing flask API capabilities:
 https://github.com/Lfahima/flask_e2e_project/assets/140275869/5afd5275-b17a-48c8-9385-e57bc7584f67
+
 
 
 ## Image of login page:
@@ -96,5 +109,5 @@ https://github.com/Lfahima/flask_e2e_project/assets/140275869/5afd5275-b17a-48c8
 <img width="1508" alt="Screenshot 2023-12-15 at 7 23 32 PM" src="https://github.com/Lfahima/flask_e2e_project/assets/140275869/407e781b-0971-4807-a290-9f9aa9b320ee">
 
 
-## Refrences:
+## References:
 https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/
