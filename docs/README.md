@@ -50,7 +50,7 @@ Follow the instructions in `azure.py` to run the migration for the database.
 - You will then be provided with another url and a code in the terminal. Proceed by copying the code first and clicking into the url. Paste the code in the space provided.
 - To get the azure student subscription ID use this code: `az account list --output table` and hit enter.
 - Copy the last subscriptionId which is linked to Azure for Students, and paste it into the end of this code: `az account set --subscription yoursubscriptionId` (paste the ID towards the end where it says yoursubscriptionId). 
-- Paste this code: `az webapp up --resource-group <groupname> --name <app-name> --runtime <PYTHON:3.9> --sku <B1>` For <groupname> change it to the resource group name you have created in Azure or GCP and for <app-name> make something up.
+- Paste this code: `az webapp up --resource-group <groupname> --name <app-name> --runtime <PYTHON:3.9> --sku <B1>` For <groupname> change it to the resource group name you have created in Azure and for <app-name> make something up.
 - FINALLY, paste this code to re-deploy: `az webapp up`
 Update your application configuration to include all the env variables listed in .env template below. 
 Change line 134 to include your url instead in `app.py`. Call the function `clean_data` in `app.py`.
