@@ -53,6 +53,7 @@ Follow the instructions in `azure.py` to run the migration for the database.
 - Paste this code: `az webapp up --resource-group <groupname> --name <app-name> --runtime <PYTHON:3.9> --sku <B1>`
 For groupname change it to the resource group name you have created in Azure and for app-name make something up.
 - FINALLY, paste this code to re-deploy: `az webapp up`
+
 Update your application configuration to include all the env variables listed in .env template below. 
 Change line 134 to include your url instead in `app.py`. Call the function `clean_data` in `app.py`.
 Re-deploy by running `az webapp up` and then comment out the call all to the function `clean_data` in `app.py` once the data is added. Re-deploy again using `az webapp up`.
