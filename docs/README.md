@@ -110,6 +110,3 @@ https://github.com/Lfahima/flask_e2e_project/assets/140275869/5afd5275-b17a-48c8
 ## Image of flask API capibilties:
 <img width="1508" alt="Screenshot 2023-12-15 at 7 23 32 PM" src="https://github.com/Lfahima/flask_e2e_project/assets/140275869/407e781b-0971-4807-a290-9f9aa9b320ee">
 
-
-## References:
-https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/
